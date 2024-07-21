@@ -34,16 +34,16 @@
 
         .hero-title {
             font-size: 60px;
-            margin: 0;
+            margin:70;
 
         }
 
         .hero-description {
-            font-size: 20px;
+            font-size: 60px;
         }
 
         .hero-btn {
-            background-color: aliceblue;
+            background-color: rgb(124, 218, 241);
             padding: 10px 20px;
         }
 
@@ -55,7 +55,7 @@
         .card{
             /* border: 2px solid red; */
             text-align: center;
-            width: 60%;
+            width: 20%;
             padding: 40px 30px;
             border-radius: 10px;
             box-shadow: 4px 4px 10px 0px red;
@@ -73,6 +73,67 @@
             justify-content: space-evenly;
             align-items: flex-end;
         }
+        .service-section{
+            width: 80%;
+            margin: 50% auto;
+            
+            border: 2px solid red;
+          
+
+        }
+        .row{
+            display: grid;
+            grid-template-columns:1fr 1fr;
+        }
+        .service-image{
+            /* border: 2px solid black; */
+            
+
+        }
+        .service-image img{
+            width: 100%;
+            
+        }
+        .service-info{
+            /* border: 2px solid green; */
+            padding: 40px;
+
+        }
+        .service-title{
+            font-size: 40px
+
+        }
+        .service-feature {
+           font-size: 30px;
+           margin: 40px 0;
+        }
+        .service-feature li{ 
+            list-style: none;
+            padding: 0;
+
+        }
+        .service-image{
+            width: 100%;
+        }
+        footer {
+            background-color: rgb(15, 27, 27);
+            color: aqua;
+            padding: 60px;
+            display: grid;
+            grid-template-columns:3fr 2fr 2fr 2fr;
+        }
+        footer h3{
+            margin: 0;
+        }
+         .main-links a,
+         .page-links a,
+         .social-links a{
+            color: rgb(21, 87, 145);
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            font-size: 1.1em;
+         }
     </style>
 </head>
 
@@ -89,6 +150,7 @@
                 <p class="hero-description">Lorem jehfuiwehuifhwuihuhifi</p>
                 <button class="hero-btn">Login Here</button>
             </section>
+            
             <section class="feature-section">
                 <div class="card-container">
                     <div class="card">
@@ -132,12 +194,110 @@
 
 
             </section>
+       
+            
+
+            
+            <section class="service-section">
+                <div class="row">
+                    <div class="service-image">
+
+                        <img src="undraw_undraw_favorite_q8ai_(1)_n6vg.png" alt="">
+                        </div>
+
+                        </div>
+                    
+
+                    
+                  
+                    <div class="service-info">
+                        <h2>service title</h2>
+                        <ul class="service-feature">
+                        <li>
+                            <i class="fa-solid fa-user"></i>Service Feature
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-user"></i>Service feature 2
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-user"> </i>service feature 3
+                        </li>
+                        </ul>
+                    </div>
+                <div class="row">
+                    
+                    <div class="service-info">
+                        <h2>Service Title</h2>
+                        <ul class="service-feature">
+                            <li>
+                                <i class="fa-solid fa-user"></i>Service Feature
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-user"></i>Service feature 2
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-user"> </i>service feature 3
+                            </li>
+                        </ul>
+                  
+                        
+                    </div>
+
+                    <div  class="service-image">
+
+                        <img src="undraw_undraw_favorite_q8ai_(1)_n6vg.png" alt="">
+                    </div>
+                </div>
+
+                    
+                        
+
+                        
+                    
+                
+                
+
+            </section>
+            <section class="contact-section"></section>
         </article>
 
 
     </main>
+    
+
+    
 
     <footer>
+        <div class="main-links">
+            <h3>company name</h3>
+            <p>© 2024 ,all rights reserved</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est hic nulla ducimus, adipisci quibusdam fugit quae? Ea, repudiandae magnam unde totam consectetur temporibus recusandae sint reprehenderit eligendi aliquid sequi animi?
+
+            </p>
+        </div>
+          <div class="page-links">
+            <a href="#">link 1</a>
+            <a href="#">link 2</a>
+            <a href="#">link 3</a>
+            <a href="#">link 4</a>
+          </div>
+            
+            <div class="social-links"></div>
+            <a href="#">
+                <i class="fa-brands fa-facebook">FACEBOOK</i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-intagram">instagram</i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-linkedin">linked in</i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-github">github</i>
+            </a>
+            
+        </div>
+        <div class="social-links"></div>
 
 
     </footer>
