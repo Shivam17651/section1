@@ -12,5 +12,5 @@ if(n%2 === 0){
 }
 
 console.log('a');
-// console.log(x);
+console.log('x');
 console.log('y');
